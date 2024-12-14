@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDE7"
+    tools:context=".HomeScreen"
+    tools:layout_editor_absoluteX="15dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+    <TextView
+        android:id="@+id/infoDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoDisplay"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <EditText
+        android:id="@+id/arganDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <EditText
+        android:id="@+id/avocadoDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <EditText
+        android:id="@+id/neemDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arganDecimal" />
+
+    <EditText
+        android:id="@+id/castorDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neemDecimal" />
+
+    <EditText
+        android:id="@+id/coconutDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/castorDecimal" />
+
+    <EditText
+        android:id="@+id/coffeebtrDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coconutDecimal" />
+
+    <EditText
+        android:id="@+id/lavanderDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coffeebtrDecimal" />
+
+    <EditText
+        android:id="@+id/beeswaxDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lavanderDecimal" />
+
+    <EditText
+        android:id="@+id/oliveDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avocadoDecimal" />
+
+    <EditText
+        android:id="@+id/palmDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oliveDecimal" />
+
+    <EditText
+        android:id="@+id/sheaDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/palmDecimal" />
+
+    <EditText
+        android:id="@+id/sheaLiquidDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sheaDecimal" />
+
+    <EditText
+        android:id="@+id/sunflowerDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sheaLiquidDecimal" />
+
+    <EditText
+        android:id="@+id/almondDecimal"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sunflowerDecimal" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/lavander_butter"
+        app:layout_constraintStart_toEndOf="@+id/lavanderDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/coffeebtrDecimal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/argan_oil"
+        app:layout_constraintStart_toEndOf="@+id/arganDecimal"
+        app:layout_constraintTop_toTopOf="@+id/arganDecimal" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/neem_oil"
+        app:layout_constraintStart_toEndOf="@+id/neemDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/arganDecimal" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/castor_oil"
+        app:layout_constraintStart_toEndOf="@+id/castorDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/neemDecimal" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/coconut_oil"
+        app:layout_constraintStart_toEndOf="@+id/coconutDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/castorDecimal" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/coffee_butter"
+        app:layout_constraintStart_toEndOf="@+id/coffeebtrDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/coconutDecimal" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/yellow_beeswax"
+        app:layout_constraintStart_toEndOf="@+id/beeswaxDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/lavanderDecimal" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/avocado_oil"
+        app:layout_constraintStart_toEndOf="@+id/avocadoDecimal"
+        app:layout_constraintTop_toTopOf="@+id/avocadoDecimal" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/olive_oil_pure"
+        app:layout_constraintStart_toEndOf="@+id/oliveDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/avocadoDecimal" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/palm_oil"
+        app:layout_constraintStart_toEndOf="@+id/palmDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/oliveDecimal" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/shea_butter"
+        app:layout_constraintStart_toEndOf="@+id/sheaDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/palmDecimal" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/shea_oil_liquid"
+        app:layout_constraintStart_toEndOf="@+id/sheaLiquidDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/sheaDecimal" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/sunflower_oil"
+        app:layout_constraintStart_toEndOf="@+id/sunflowerDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/sheaLiquidDecimal" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/sweet_almond_oil"
+        app:layout_constraintStart_toEndOf="@+id/almondDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/sunflowerDecimal" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#6D234F"
+        android:text="@string/nextBtttn"
+        app:backgroundTint="#6D234F"
+        app:cornerRadius="0pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/almondDecimal"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/what_are_your_ingredient_amounts_by_weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <Button
+        android:id="@+id/historyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        app:backgroundTint="#6D234F"
+        app:cornerRadius="0pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

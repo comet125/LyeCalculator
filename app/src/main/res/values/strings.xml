@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lye Calculator</string>
+    <string name="ChooseTip">Choose your soap type and measurement units</string>
+    <string name="nextButtonTip">Next</string>
+    <string name="choose_your_soap_type_and_measurement_units">Choose your soap type and measurement units</string>
+    <string name="nextBtttn">Next</string>
+    <string name="argan_oil">Argan Oil</string>
+    <string name="neem_oil">Neem Oil</string>
+    <string name="castor_oil">Castor Oil</string>
+    <string name="coconut_oil">Coconut Oil</string>
+    <string name="coffee_butter">Coffee Butter</string>
+    <string name="lavander_butter">Lavander Butter</string>
+    <string name="yellow_beeswax">Yellow Beeswax</string>
+    <string name="avocado_oil">Avocado Oil</string>
+    <string name="olive_oil_pure">Olive Oil - Pure</string>
+    <string name="palm_oil">Palm Oil</string>
+    <string name="shea_butter">Shea Butter</string>
+    <string name="shea_oil_liquid">Shea Oil, Liquid</string>
+    <string name="sunflower_oil">Sunflower Oil</string>
+    <string name="sweet_almond_oil">Sweet Almond Oil</string>
+    <string name="what_are_your_ingredient_amounts_by_weight">What are your ingredient amounts by weight?</string>
+    <string name="results">RESULTS</string>
+    <string name="ounces_grams">Ounces / Grams</string>
+    <string name="history">History</string>
+    <string name="your_soap_history">Your Soap History</string>
+    <string name="back">Back</string>
+    <string name="resize_batch">Resize Batch</string>
+    <string name="_2024_mateo_marjanovi">2024 Mateo Marjanović</string>
+    <string name="state">State</string>
+    <string name="units">Units</string>
+    <string name="superfatting_level">Superfatting level</string>
+    <string name="tap_to_select_and_build_your_soap_recipe">Tap to select and build your soap recipe</string>
+</resources>
